@@ -1,0 +1,332 @@
+------------------------------
+wchar _ t * data ; 
+wchar _ t *  * dataPtr 1  =  & data ; 
+wchar _ t *  * dataPtr 2  =  & data ; 
+data =  ( wchar _ t * ) malloc ( 1 0 0 * sizeof ( wchar _ t ) ) ; 
+if 
+data = = NULL
+data [ 0 ]  = L ' \ 0 ' ; 
+wchar _ t * data =  * dataPtr 1 ; 
+size _ t dataLen = wcslen ( data ) ; 
+0
+------------------------------
+if 
+fgetws ( data + dataLen ,  ( int ) ( 1 0 0 - dataLen ) , stdin )  ! = NULL
+dataLen = wcslen ( data ) ; 
+if 
+dataLen >  0  & & data [ dataLen - 1 ]  = = L ' \ n ' 
+data [ dataLen - 1 ]  = L ' \ 0 ' ; 
+data [ dataLen ]  = L ' \ 0 ' ; 
+ * dataPtr 1  = data ; 
+wchar _ t * data =  * dataPtr 2 ; 
+for 
+ ; 
+ * data ! = L ' \ 0 ' 
+data + + 
+if 
+ * data = = SEARCH _ CHAR
+free ( data ) ; 
+1
+------------------------------
+wchar _ t * data ; 
+wchar _ t *  * dataPtr 1  =  & data ; 
+wchar _ t *  * dataPtr 2  =  & data ; 
+data =  ( wchar _ t * ) malloc ( 1 0 0 * sizeof ( wchar _ t ) ) ; 
+if 
+data = = NULL
+data [ 0 ]  = L ' \ 0 ' ; 
+wchar _ t * data =  * dataPtr 1 ; 
+size _ t dataLen = wcslen ( data ) ; 
+if 
+fgetws ( data + dataLen ,  ( int ) ( 1 0 0 - dataLen ) , stdin )  ! = NULL
+dataLen = wcslen ( data ) ; 
+0
+------------------------------
+wchar _ t * data ; 
+wchar _ t *  * dataPtr 1  =  & data ; 
+wchar _ t *  * dataPtr 2  =  & data ; 
+data =  ( wchar _ t * ) malloc ( 1 0 0 * sizeof ( wchar _ t ) ) ; 
+if 
+data = = NULL
+data [ 0 ]  = L ' \ 0 ' ; 
+wchar _ t * data =  * dataPtr 1 ; 
+size _ t dataLen = wcslen ( data ) ; 
+if 
+fgetws ( data + dataLen ,  ( int ) ( 1 0 0 - dataLen ) , stdin )  ! = NULL
+dataLen = wcslen ( data ) ; 
+if 
+dataLen >  0  & & data [ dataLen - 1 ]  = = L ' \ n ' 
+data [ dataLen - 1 ]  = L ' \ 0 ' ; 
+data [ dataLen ]  = L ' \ 0 ' ; 
+ * dataPtr 1  = data ; 
+wchar _ t * data =  * dataPtr 2 ; 
+for 
+ ; 
+ * data ! = L ' \ 0 ' 
+data + + 
+if 
+ * data = = SEARCH _ CHAR
+free ( data ) ; 
+1
+------------------------------
+------------------------------
+wchar _ t * data ; 
+wchar _ t *  * dataPtr 1  =  & data ; 
+wchar _ t *  * dataPtr 2  =  & data ; 
+data =  ( wchar _ t * ) malloc ( 1 0 0 * sizeof ( wchar _ t ) ) ; 
+if 
+data = = NULL
+data [ 0 ]  = L ' \ 0 ' ; 
+wchar _ t * data =  * dataPtr 1 ; 
+size _ t dataLen = wcslen ( data ) ; 
+0
+------------------------------
+if 
+fgetws ( data + dataLen ,  ( int ) ( 1 0 0 - dataLen ) , stdin )  ! = NULL
+dataLen = wcslen ( data ) ; 
+if 
+dataLen >  0  & & data [ dataLen - 1 ]  = = L ' \ n ' 
+data [ dataLen - 1 ]  = L ' \ 0 ' ; 
+data [ dataLen ]  = L ' \ 0 ' ; 
+ * dataPtr 1  = data ; 
+wchar _ t * data =  * dataPtr 2 ; 
+for 
+i = 0 ; 
+i < wcslen ( data ) 
+i + + 
+if 
+data [ i ]  = = SEARCH _ CHAR
+free ( data ) ; 
+0
+------------------------------
+wchar _ t * data ; 
+wchar _ t *  * dataPtr 1  =  & data ; 
+wchar _ t *  * dataPtr 2  =  & data ; 
+data =  ( wchar _ t * ) malloc ( 1 0 0 * sizeof ( wchar _ t ) ) ; 
+if 
+data = = NULL
+data [ 0 ]  = L ' \ 0 ' ; 
+wchar _ t * data =  * dataPtr 1 ; 
+size _ t dataLen = wcslen ( data ) ; 
+if 
+fgetws ( data + dataLen ,  ( int ) ( 1 0 0 - dataLen ) , stdin )  ! = NULL
+dataLen = wcslen ( data ) ; 
+0
+------------------------------
+wchar _ t * data ; 
+wchar _ t *  * dataPtr 1  =  & data ; 
+wchar _ t *  * dataPtr 2  =  & data ; 
+data =  ( wchar _ t * ) malloc ( 1 0 0 * sizeof ( wchar _ t ) ) ; 
+if 
+data = = NULL
+data [ 0 ]  = L ' \ 0 ' ; 
+wchar _ t * data =  * dataPtr 1 ; 
+size _ t dataLen = wcslen ( data ) ; 
+if 
+fgetws ( data + dataLen ,  ( int ) ( 1 0 0 - dataLen ) , stdin )  ! = NULL
+dataLen = wcslen ( data ) ; 
+if 
+dataLen >  0  & & data [ dataLen - 1 ]  = = L ' \ n ' 
+data [ dataLen - 1 ]  = L ' \ 0 ' ; 
+data [ dataLen ]  = L ' \ 0 ' ; 
+ * dataPtr 1  = data ; 
+wchar _ t * data =  * dataPtr 2 ; 
+for 
+i = 0 ; 
+i < wcslen ( data ) 
+i + + 
+0
+------------------------------
+wchar _ t * data ; 
+wchar _ t *  * dataPtr 1  =  & data ; 
+wchar _ t *  * dataPtr 2  =  & data ; 
+data =  ( wchar _ t * ) malloc ( 1 0 0 * sizeof ( wchar _ t ) ) ; 
+if 
+data = = NULL
+data [ 0 ]  = L ' \ 0 ' ; 
+wchar _ t * data =  * dataPtr 1 ; 
+size _ t dataLen = wcslen ( data ) ; 
+if 
+fgetws ( data + dataLen ,  ( int ) ( 1 0 0 - dataLen ) , stdin )  ! = NULL
+dataLen = wcslen ( data ) ; 
+if 
+dataLen >  0  & & data [ dataLen - 1 ]  = = L ' \ n ' 
+data [ dataLen - 1 ]  = L ' \ 0 ' ; 
+data [ dataLen ]  = L ' \ 0 ' ; 
+ * dataPtr 1  = data ; 
+wchar _ t * data =  * dataPtr 2 ; 
+for 
+i = 0 ; 
+i < wcslen ( data ) 
+i + + 
+if 
+data [ i ]  = = SEARCH _ CHAR
+free ( data ) ; 
+0
+------------------------------
+------------------------------
+wchar _ t * data ; 
+wchar _ t *  * dataPtr 1  =  & data ; 
+wchar _ t *  * dataPtr 2  =  & data ; 
+data =  ( wchar _ t * ) malloc ( 1 0 0 * sizeof ( wchar _ t ) ) ; 
+if 
+data = = NULL
+data [ 0 ]  = L ' \ 0 ' ; 
+wchar _ t * data =  * dataPtr 1 ; 
+size _ t dataLen = wcslen ( data ) ; 
+0
+------------------------------
+if 
+fgetws ( data + dataLen ,  ( int ) ( 1 0 0 - dataLen ) , stdin )  ! = NULL
+dataLen = wcslen ( data ) ; 
+if 
+dataLen >  0  & & data [ dataLen - 1 ]  = = L ' \ n ' 
+data [ dataLen - 1 ]  = L ' \ 0 ' ; 
+data [ dataLen ]  = L ' \ 0 ' ; 
+ * dataPtr 1  = data ; 
+wchar _ t * data =  * dataPtr 2 ; 
+for 
+ ; 
+ * data ! = L ' \ 0 ' 
+data + + 
+if 
+ * data = = SEARCH _ CHAR
+free ( data ) ; 
+1
+------------------------------
+wchar _ t * data ; 
+wchar _ t *  * dataPtr 1  =  & data ; 
+wchar _ t *  * dataPtr 2  =  & data ; 
+data =  ( wchar _ t * ) malloc ( 1 0 0 * sizeof ( wchar _ t ) ) ; 
+if 
+data = = NULL
+data [ 0 ]  = L ' \ 0 ' ; 
+wchar _ t * data =  * dataPtr 1 ; 
+size _ t dataLen = wcslen ( data ) ; 
+if 
+fgetws ( data + dataLen ,  ( int ) ( 1 0 0 - dataLen ) , stdin )  ! = NULL
+dataLen = wcslen ( data ) ; 
+0
+------------------------------
+wchar _ t * data ; 
+wchar _ t *  * dataPtr 1  =  & data ; 
+wchar _ t *  * dataPtr 2  =  & data ; 
+data =  ( wchar _ t * ) malloc ( 1 0 0 * sizeof ( wchar _ t ) ) ; 
+if 
+data = = NULL
+data [ 0 ]  = L ' \ 0 ' ; 
+wchar _ t * data =  * dataPtr 1 ; 
+size _ t dataLen = wcslen ( data ) ; 
+if 
+fgetws ( data + dataLen ,  ( int ) ( 1 0 0 - dataLen ) , stdin )  ! = NULL
+dataLen = wcslen ( data ) ; 
+if 
+dataLen >  0  & & data [ dataLen - 1 ]  = = L ' \ n ' 
+data [ dataLen - 1 ]  = L ' \ 0 ' ; 
+data [ dataLen ]  = L ' \ 0 ' ; 
+ * dataPtr 1  = data ; 
+wchar _ t * data =  * dataPtr 2 ; 
+for 
+ ; 
+ * data ! = L ' \ 0 ' 
+data + + 
+if 
+ * data = = SEARCH _ CHAR
+free ( data ) ; 
+1
+------------------------------
+------------------------------
+wchar _ t * data ; 
+wchar _ t *  * dataPtr 1  =  & data ; 
+wchar _ t *  * dataPtr 2  =  & data ; 
+data =  ( wchar _ t * ) malloc ( 1 0 0 * sizeof ( wchar _ t ) ) ; 
+if 
+data = = NULL
+data [ 0 ]  = L ' \ 0 ' ; 
+wchar _ t * data =  * dataPtr 1 ; 
+size _ t dataLen = wcslen ( data ) ; 
+0
+------------------------------
+if 
+fgetws ( data + dataLen ,  ( int ) ( 1 0 0 - dataLen ) , stdin )  ! = NULL
+dataLen = wcslen ( data ) ; 
+if 
+dataLen >  0  & & data [ dataLen - 1 ]  = = L ' \ n ' 
+data [ dataLen - 1 ]  = L ' \ 0 ' ; 
+data [ dataLen ]  = L ' \ 0 ' ; 
+ * dataPtr 1  = data ; 
+wchar _ t * data =  * dataPtr 2 ; 
+for 
+i = 0 ; 
+i < wcslen ( data ) 
+i + + 
+if 
+data [ i ]  = = SEARCH _ CHAR
+free ( data ) ; 
+0
+------------------------------
+wchar _ t * data ; 
+wchar _ t *  * dataPtr 1  =  & data ; 
+wchar _ t *  * dataPtr 2  =  & data ; 
+data =  ( wchar _ t * ) malloc ( 1 0 0 * sizeof ( wchar _ t ) ) ; 
+if 
+data = = NULL
+data [ 0 ]  = L ' \ 0 ' ; 
+wchar _ t * data =  * dataPtr 1 ; 
+size _ t dataLen = wcslen ( data ) ; 
+if 
+fgetws ( data + dataLen ,  ( int ) ( 1 0 0 - dataLen ) , stdin )  ! = NULL
+dataLen = wcslen ( data ) ; 
+0
+------------------------------
+wchar _ t * data ; 
+wchar _ t *  * dataPtr 1  =  & data ; 
+wchar _ t *  * dataPtr 2  =  & data ; 
+data =  ( wchar _ t * ) malloc ( 1 0 0 * sizeof ( wchar _ t ) ) ; 
+if 
+data = = NULL
+data [ 0 ]  = L ' \ 0 ' ; 
+wchar _ t * data =  * dataPtr 1 ; 
+size _ t dataLen = wcslen ( data ) ; 
+if 
+fgetws ( data + dataLen ,  ( int ) ( 1 0 0 - dataLen ) , stdin )  ! = NULL
+dataLen = wcslen ( data ) ; 
+if 
+dataLen >  0  & & data [ dataLen - 1 ]  = = L ' \ n ' 
+data [ dataLen - 1 ]  = L ' \ 0 ' ; 
+data [ dataLen ]  = L ' \ 0 ' ; 
+ * dataPtr 1  = data ; 
+wchar _ t * data =  * dataPtr 2 ; 
+for 
+i = 0 ; 
+i < wcslen ( data ) 
+i + + 
+0
+------------------------------
+wchar _ t * data ; 
+wchar _ t *  * dataPtr 1  =  & data ; 
+wchar _ t *  * dataPtr 2  =  & data ; 
+data =  ( wchar _ t * ) malloc ( 1 0 0 * sizeof ( wchar _ t ) ) ; 
+if 
+data = = NULL
+data [ 0 ]  = L ' \ 0 ' ; 
+wchar _ t * data =  * dataPtr 1 ; 
+size _ t dataLen = wcslen ( data ) ; 
+if 
+fgetws ( data + dataLen ,  ( int ) ( 1 0 0 - dataLen ) , stdin )  ! = NULL
+dataLen = wcslen ( data ) ; 
+if 
+dataLen >  0  & & data [ dataLen - 1 ]  = = L ' \ n ' 
+data [ dataLen - 1 ]  = L ' \ 0 ' ; 
+data [ dataLen ]  = L ' \ 0 ' ; 
+ * dataPtr 1  = data ; 
+wchar _ t * data =  * dataPtr 2 ; 
+for 
+i = 0 ; 
+i < wcslen ( data ) 
+i + + 
+if 
+data [ i ]  = = SEARCH _ CHAR
+free ( data ) ; 
+0
+------------------------------
